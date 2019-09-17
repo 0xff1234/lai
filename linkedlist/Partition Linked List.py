@@ -25,7 +25,7 @@ class Solution(object):
         smallHead = largeHead = None
         smallCur = largeCur = None
         cur = head
-        while cur != None:
+        while cur is not None:
             next = cur.next
             cur.next = None
             if cur.val < target:

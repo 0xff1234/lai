@@ -5,11 +5,11 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-    def __str__(self):
-        if self.next:
-            return str(self.val) + ' -> ' + str(self.next)
-        else:
-            return str(self.val) + ' -> ' + 'None'
+    # def __str__(self):
+    #     if self.next:
+    #         return str(self.val) + ' -> ' + str(self.next)
+    #     else:
+    #         return str(self.val) + ' -> ' + 'None'
 
 
 def array2linkedList(array):
